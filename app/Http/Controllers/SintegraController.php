@@ -20,12 +20,12 @@ class SintegraController extends Controller
         
         return $result;
     }
-
+    
     public function __construct(Sintegra $sintegra) 
     {
         $this->sintegra = $sintegra;
     }
-
+    
     public function getCNPJ($cnpj) 
     {
         $result = $this->curlSintegra($cnpj);
