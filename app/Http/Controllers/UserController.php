@@ -12,7 +12,8 @@ class UserController extends Controller
         
         $validator = Validator::make(Input::all(), $rules);
         
-        if ($validator->fails()) {
+        if ($validator->fails()) 
+        {
             return Redirect::to('login')
                 ->withErrors($validator)
                 ->withInput(Input::except('password')); 
@@ -22,9 +23,9 @@ class UserController extends Controller
                 'password'  => Input::get('password')
             );
 
-            if (Auth::attempt($userdata)) {
+            if (Auth::attempt($userdata)) 
+            {
                 echo 'SUCCESS!';
-
             } else {        
                 return Redirect::to('login');
             }
