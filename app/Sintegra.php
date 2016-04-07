@@ -12,6 +12,7 @@ class Sintegra extends Model
     public function deleteSintegra($id)
     {
         $sintegra = self::find($id);
+        
         if(isNull($sintegra))
         {
             return FALSE;
