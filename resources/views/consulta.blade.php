@@ -15,7 +15,6 @@
                             </div>
                             <div class="input-group"></div>
                             <div style="margin-top:10px" class="form-group">
-                                <!-- Button -->
                                 <div class="col-sm-4 controls">
                                   <button class="btn btn-lg btn-success" type="submit">Pesquisar</button>
                                 </div>
