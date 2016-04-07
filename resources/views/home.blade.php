@@ -19,7 +19,6 @@
                             </div>
                             <div class="input-group"></div>
                             <div style="margin-top:10px" class="form-group">
-                                <!-- Button -->
                                 <div class="col-sm-12 controls">
                                   <button class="btn btn-lg btn-success" type="submit">Entrar</button>
                                 </div>
